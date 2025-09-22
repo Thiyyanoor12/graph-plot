@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'Books.xlsx'
-      - 'graph-plot.py'
+      - 'Plot-graph.py'
 
 jobs:
   build:
