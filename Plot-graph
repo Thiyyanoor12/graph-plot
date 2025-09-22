@@ -1,0 +1,13 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_excel('Books.xlsx')
+
+plt.figure(figsize=(10, 6))
+plt.plot(df['S'], df['T'], marker='o')
+plt.title('Graph of T vs S')
+plt.xlabel('S')
+plt.ylabel('T')
+plt.grid(True)
+plt.savefig('graph.png')
+
